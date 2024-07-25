@@ -55,12 +55,8 @@ function captchamaker() {
     return result
 }
 
-console.log(captchamaker())
-console.log(captchamaker())
-console.log(captchamaker())
-console.log(captchamaker())
 
-let recaptch = document.getElementById('cap')
+let cap = document.getElementById('cap')
 let capans = document.getElementById('capans')
 capans.addEventListener('click', () => {
     cap.innerText = captchamaker()
