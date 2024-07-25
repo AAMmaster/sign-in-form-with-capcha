@@ -46,3 +46,5 @@ lbtn.addEventListener("click", () => {
     document.getElementById("bleft_form").style.left = ("0")
     document.getElementById("bright_form").style.left = ("-100%")
 })
+
+
