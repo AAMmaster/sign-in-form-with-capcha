@@ -11,7 +11,7 @@ section.form {
     transition: all linear 300ms;
     border-radius: 15px;
     box-shadow: 0 0 40px 10px gray;
-    
+
     display: flex;
     overflow: hidden;
     justify-content: center;
@@ -38,7 +38,7 @@ section.form>div.left>div.bleft {
     width: 100%;
     position: absolute;
     left: 0;
-    border-radius: 15px 0 0 15px ;
+    border-radius: 15px 0 0 15px;
     display: flex;
     flex-flow: column;
     background-color: rgb(56, 55, 55);
@@ -50,15 +50,15 @@ section.form>div.left>div.bleft {
     transition: all ease 900ms;
 }
 
-section.form>div.left>div.bleft>form>input{
+section.form>div.left>div.bleft>form>input {
     background-color: rgb(56, 55, 55);
     padding: 10px;
     color: #FFD700;
     border-radius: 10px;
-    border:1px solid #FFD700;
+    border: 1px solid #FFD700;
 }
 
-section.form>div.left>div.bleft>form>input::placeholder{
+section.form>div.left>div.bleft>form>input::placeholder {
     color: #FFD700;
 }
 
@@ -127,10 +127,10 @@ section.form>div.right>div.bright {
     width: 100%;
     position: absolute;
     display: flex;
-    left:-100% ;
+    left: -100%;
     flex-flow: column;
     flex-wrap: nowrap;
-    border-radius: 0 15px 15px 0 ;
+    border-radius: 0 15px 15px 0;
     gap: 10px;
     justify-content: flex-start;
     align-items: center;
@@ -139,15 +139,15 @@ section.form>div.right>div.bright {
     color: #FFD700;
 }
 
-section.form>div.right>div.bright>form>input{
+section.form>div.right>div.bright>form>input {
     background-color: rgb(56, 55, 55);
     padding: 10px;
     color: #FFD700;
     border-radius: 10px;
-    border:1px solid #FFD700;
+    border: 1px solid #FFD700;
 }
 
-section.form>div.right>div.bright>form>input::placeholder{
+section.form>div.right>div.bright>form>input::placeholder {
     color: #FFD700;
 }
 
@@ -168,7 +168,7 @@ section.form>div.right>div.fright {
     width: 100%;
     position: absolute;
     padding: 10px;
-    border-radius: 0 15px 15px 0    ;
+    border-radius: 0 15px 15px 0;
     background-color: #36C2CE;
     transform: scale(1);
     left: 0;
