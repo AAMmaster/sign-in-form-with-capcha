@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+section.form {
+
+    width: 800px;
+    height: 450px;
+    transition: all linear 300ms;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 10px gray;
+    
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    position: relative;
+    left: calc(50% - 400px);
+    top: calc(50vh - 450px /2);
+
+
+}
+
+section.form>div.left {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+section.form>div.left>div.bleft {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 15px 0 0 15px ;
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(56, 55, 55);
+    color: #FFD700;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all ease 900ms;
+}
+
+section.form>div.left>div.bleft>form>input{
+    background-color: rgb(56, 55, 55);
+    padding: 10px;
+    color: #FFD700;
+    border-radius: 10px;
+    border:1px solid #FFD700;
+}
+
+section.form>div.left>div.bleft>form>input::placeholder{
+    color: #FFD700;
+}
+
+section.form>div.left>div.bleft>form {
+    margin: 10px 0;
+    border: 0;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+h1#hright {
+    transition: all ease 800ms;
+    text-align: center;
+    position: relative;
+    left: 0;
+
+}
+
+h1#hleft {
+    transition: all ease 800ms;
+    text-align: center;
+    position: relative;
+    left: 100%;
+
+
+}
+
+section.form>div.left>div.fleft {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    border-radius: 15px 0 0 15px;
+    background-color: #36C2CE;
+    left: 100%;
+    box-sizing: border-box;
+    color: aliceblue;
+    transform: scale(1);
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all ease 900ms;
+}
+
+section.form>div.right {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+
+
+
+section.form>div.right>div.bright {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    left:-100% ;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    border-radius: 0 15px 15px 0 ;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all ease 900ms;
+    background-color: rgb(56, 55, 55);
+    color: #FFD700;
+}
+
+section.form>div.right>div.bright>form>input{
+    background-color: rgb(56, 55, 55);
+    padding: 10px;
+    color: #FFD700;
+    border-radius: 10px;
+    border:1px solid #FFD700;
+}
+
+section.form>div.right>div.bright>form>input::placeholder{
+    color: #FFD700;
+}
+
+
+section.form>div.right>div.bright>form {
+    margin: 10px 0;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    border: 0;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+
+section.form>div.right>div.fright {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    border-radius: 0 15px 15px 0    ;
+    background-color: #36C2CE;
+    transform: scale(1);
+    left: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all ease 900ms;
+}
