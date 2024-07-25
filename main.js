@@ -47,4 +47,21 @@ lbtn.addEventListener("click", () => {
     document.getElementById("bright_form").style.left = ("-100%")
 })
 
+let captcha= ["QWERTYUIOPLKJHGFDSAZXCVBNMqwertyuiopasdfghjklzxcvbnm0123456789"]
+let result = ''
 
+function captchamaker(){
+    result = captcha.charAt(Math.trunc(Math.random()*36)) +captcha.charAt(Math.trunc(Math.random()*36) + 31) +captcha.charAt(Math.trunc(Math.random()*36) + 20)+captcha.charAt(Math.trunc(Math.random()*36))
+    return result
+}
+
+console.log(captchamaker())
+console.log(captchamaker())
+console.log(captchamaker())
+console.log(captchamaker())   
+
+let recaptch = document.getElementById('cap')
+let generate = document.getElementById('capans')
+generate.addEventListener('click', ()=>{
+    recaptch.innerText = recaptchaGenerator()
+})
